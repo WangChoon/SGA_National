@@ -80,6 +80,8 @@ void Main::PostRender()
 	Context::Get()->GetMainCamera()->RotationDegree(&rot);
 	str = String::Format(L"CameraRot : %.0f, %.0f", rot.x, rot.y);
 	DirectWrite::RenderText(str, rect, 12);
+
+
 	*/
 }
 
