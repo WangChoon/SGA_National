@@ -79,7 +79,8 @@ void Main::PostRender()
 	D3DXVECTOR2 rot;
 	Context::Get()->GetMainCamera()->RotationDegree(&rot);
 	str = String::Format(L"CameraRot : %.0f, %.0f", rot.x, rot.y);
-	DirectWrite::RenderText(str, rect, 12);*/
+	DirectWrite::RenderText(str, rect, 12);
+	*/
 }
 
 void Main::ResizeScreen()
